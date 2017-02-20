@@ -21,6 +21,7 @@ public class ApplicationTests {
 
     @Before
     public void setUp() {
+        userSerivce.init();
         // 准备，清空user表
         userSerivce.deleteAllUsers();
     }
@@ -40,5 +41,6 @@ public class ApplicationTests {
         userSerivce.deleteByName("e");
         // 查数据库，应该有5个用户
         Assert.assertEquals(3, userSerivce.getAllUsers().intValue());
+        System.out.println(userSerivce.getAllUsers());
     }
 }

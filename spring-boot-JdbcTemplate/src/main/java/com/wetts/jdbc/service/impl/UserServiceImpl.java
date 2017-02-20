@@ -15,6 +15,13 @@ public class UserServiceImpl implements UserService {
     private JdbcTemplate jdbcTemplate;
 
     @Override
+    public void init() {
+        jdbcTemplate.execute("CREATE TABLE USER(\n" +
+                "    NAME VARCHAR(20) NOT NULL PRIMARY KEY,\n" +
+                "    AGE INTEGER)");
+    }
+
+    @Override
     public void create(String name, Integer age) {
         jdbcTemplate.update("insert into USER(NAME, AGE) values(?, ?)", name, age);
     }

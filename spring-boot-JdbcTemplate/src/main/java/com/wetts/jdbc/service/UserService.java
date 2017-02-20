@@ -5,6 +5,8 @@ package com.wetts.jdbc.service;
  */
 public interface UserService {
 
+    void init();
+
     /**
      * 新增一个用户
      *
