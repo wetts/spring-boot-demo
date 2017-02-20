@@ -7,8 +7,13 @@
     <groupId>com.wetts</groupId>
     <artifactId>spring-boot-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>spring-boot-demo</name>
+    <packaging>pom</packaging>
+
     <modules>
         <module>spring-boot-helloworld</module>
+        <module>spring-boot-restful</module>
+        <module>spring-boot-JdbcTemplate</module>
     </modules>
 
 </project>

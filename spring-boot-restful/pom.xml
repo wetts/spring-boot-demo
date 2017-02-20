@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wetts</groupId>
-    <artifactId>spring-boot-helloworld</artifactId>
+    <artifactId>spring-boot-restful</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>spring-boot-helloworld</name>
 
@@ -32,4 +32,6 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+
+
 </project>
