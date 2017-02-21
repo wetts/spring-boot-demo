@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wetts</groupId>
-    <artifactId>spring-boot-JdbcTemplate</artifactId>
+    <artifactId>spring-boot-db-JdbcTemplate</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-helloworld</name>
+    <name>spring-boot-db-JdbcTemplate</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

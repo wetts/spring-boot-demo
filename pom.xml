@@ -13,7 +13,13 @@
     <modules>
         <module>spring-boot-helloworld</module>
         <module>spring-boot-restful</module>
-        <module>spring-boot-JdbcTemplate</module>
+        <module>spring-boot-db-JdbcTemplate</module>
+        <module>spring-boot-db-redis</module>
+        <module>spring-boot-db-mongodb</module>
+        <module>spring-boot-view-exception</module>
+        <module>spring-boot-properties</module>
+        <module>spring-boot-scheduled</module>
+        <module>spring-boot-db-mybatis</module>
     </modules>
 
 </project>
